@@ -1,0 +1,29 @@
+<idea-plugin>
+    <id>Dark Sakura</id>
+    <version>1.0.0</version>
+    <name>Dark Sakura</name>
+    <category>UI</category>
+    <vendor email="evgenia.chendeva@proton.me">Eva Kalachik</vendor>
+    <idea-version since-build="222" until-build="260.*"/>
+    <description>
+        <![CDATA[
+        <h2>Dark Sakura Theme</h2>
+        Cute dark pink theme for IntelliJ IDEA. Changes the look and feel of the IDE with:
+        <ul>
+            <li>
+                Pink accents and borders for UI elements
+            </li>
+            <li>
+                New contrasting color scheme
+            </li>
+        </ul>
+    ]]></description>
+    <change-notes><![CDATA[
+    Initial release of the theme.
+    ]]></change-notes>
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="darksakura" path="/theme/darksakura.theme.json"/>
+    </extensions>
+</idea-plugin>
