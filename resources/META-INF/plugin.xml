@@ -3,7 +3,7 @@
     <version>1.0.0</version>
     <name>Dark Sakura</name>
     <category>UI</category>
-    <vendor email="evgenia.chendeva@proton.me">Eva Kalachik</vendor>
+    <vendor url="https://github.com/queenofmadhouse/dark-sakura" email="evgenia.chendeva@proton.me">Eva Kalachik</vendor>
     <idea-version since-build="222" until-build="260.*"/>
     <description>
         <![CDATA[
